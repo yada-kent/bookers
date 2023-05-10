@@ -28,3 +28,10 @@ div {
   margin-top: 10px;
 }
 
+form {
+  display: block;
+}
+
+.text-success {
+  color: green;
+}

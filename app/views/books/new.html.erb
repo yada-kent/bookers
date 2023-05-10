@@ -38,20 +38,20 @@
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
 
 <form>
- <div>
- <label for="book_title">Title</lebel>
- <%= f.text_field :title %>
- </div>
+  <div>
+     <label for="book_title">Title</lebel>
+     <%= f.text_field :title %>
+   </div>
  
  
- <div>
- <label for="book_body">Body</label>
- <%= f.text_area :body %>
- </div>
+  <div>
+    <label for="book_body">Body</label>
+    <%= f.text_area :body %>
+  </div>
  
- <div>
- <%= f.submit 'Create Book' %>
- </div>
+  <div>
+     <%= f.submit 'Create Book' %>
+  </div>
  
 </form>
 
